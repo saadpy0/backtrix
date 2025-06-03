@@ -11,7 +11,7 @@ def get_supabase_client() -> Client:
     """
     return create_client(
         supabase_url=settings.SUPABASE_URL,
-        supabase_key=settings.SUPABASE_SERVICE_KEY
+        supabase_key=settings.SUPABASE_ANON_KEY  # Use anon key for auth operations
     )
 
 # Create a global client instance

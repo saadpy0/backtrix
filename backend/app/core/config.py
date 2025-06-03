@@ -10,6 +10,7 @@ class Settings(BaseSettings):
     # Supabase settings
     SUPABASE_URL: str
     SUPABASE_SERVICE_KEY: str
+    SUPABASE_ANON_KEY: str  # Add anon key for client-side operations
 
     class Config:
         env_file = ".env"
