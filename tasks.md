@@ -12,7 +12,8 @@
             "start_condition": "No backend project directory.",
             "end_condition": "Basic FastAPI project folders created.",
             "test_verification": "Verify directory structure exists.",
-            "focus": "Project scaffolding"
+            "focus": "Project scaffolding",
+            "status": "completed"
           },
           {
             "id": "0.1.2",
